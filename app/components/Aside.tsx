@@ -2,7 +2,7 @@ import React from "react";
 
 import Link from "next/link";
 import Image from "next/image";
-import MTSNLOGO from "@/public/MTsN-1-Kota-Malang-PNG.png";
+import MTSNLOGO from "@/public/iconsekolah-bg.png";
 
 function Aside() {
   return (
@@ -11,7 +11,7 @@ function Aside() {
         <div className="h-full px-3 py-4 overflow-y-auto bg-green-1 dark:bg-gray-800">
           <Link target="_blank" href="https://mtsn1kotamalang.sch.id/" className="flex items-center ps-2.5 mb-5">
             <Image src={MTSNLOGO} width={60} height={60} className="me-3 " alt="Telkom" />
-            <span className="text-gray-800 font-bold text-lg font-sans">MTsN 1 Kota Malang</span>
+            <span className="text-gray-800 font-bold text-lg font-sans">SDN Sawojajar 5</span>
           </Link>
           <ul className="space-y-2 font-medium">
             <li>
